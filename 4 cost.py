@@ -7,5 +7,5 @@ while p<len(m):
 	  o+=(ord(n[p])-ord(m[p]))
 	  p+=1
 for p in range(p,len(n)):
-	  o+=ord(n[p])-ord('a')
+	  o+=ord(n[p])-ord('a')+1
 print(o)
