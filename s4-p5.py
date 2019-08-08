@@ -1,14 +1,14 @@
 import sys,string
 def cfreq(a):
-    dic={}
+    dic1={}
     for c in a:
-      dic[c]=dic.get(c,0)+1
-    return dic
+      dic1[c]=dic1.get(c,0)+1
+    return dic1
 
 a=input()
 n=len(a) 
-dic=cfreq(a)  
-L=list(dic.keys())
+dic1=cfreq(a)  
+L=list(dic1.keys())
 
 for j in range(n-1,-1,-1):
     for c in L:
