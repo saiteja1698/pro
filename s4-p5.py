@@ -18,8 +18,8 @@ for j in range(n-1,-1,-1):
            a1=a[l:r + 1]
            if c in a1:
               b += 1
-       if b==n-j:
-          c2=c
-          b2=b
-          len=j+1
-print(len)       
+           if b == n-j:
+              c2 = c
+              b2 = b
+              len2 = j+1
+print(len2)       
